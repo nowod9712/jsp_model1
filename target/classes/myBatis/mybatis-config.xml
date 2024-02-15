@@ -7,7 +7,7 @@
 	<typeAliases>
 	<!--	  -->
 	<typeAlias type ="model.UserVO" alias="uVo"/>
-	<typeAlias type ="model.BoardVO" alias="bVo"/>
+	<typeAlias type ="model.SheetsVO" alias="sVo"/>
 	
 	</typeAliases>
 
@@ -49,5 +49,6 @@ poolTimeToWait : 사용된 커넥션을 기다리는 시간
   	<!-- SQL 쿼리를 정의한 xml 설정파일 -->
  	<mapper resource="myBatis/mapper/UserMapper.xml"/>
  	<mapper resource="myBatis/mapper/BoardMapper.xml"/>
+ 	<mapper resource="myBatis/mapper/SheetsMapper.xml"/>
   </mappers>
 </configuration>
